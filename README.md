@@ -6,14 +6,18 @@ Grammar and String.
 
 Eg.
 Grammar:
+
 E->E+E|E-E
 E->id
 
 String: 
+
 id + id - id : Accepted
+
 id + id :Accepted
 
 id+id : Rejected
+
 id + id * id : Rejected
 
 
